@@ -23,7 +23,7 @@ public class BMI2 {
         } else if (bmi > 18.5  && bmi <  25.0) {
             System.out.println("bmi = "+bmi + " you have normal weight.");
         } else if (bmi > 25.0 && bmi < 30) {
-            System.out.println("bmi = "+bmi + " you are slightly underweight");
+            System.out.println("bmi = "+bmi + " you are slightly overweight");
         }else if (bmi > 30 && bmi < 35.0) {
             System.out.println("bmi = "+bmi + " you are slightly obese.");
         }else {
